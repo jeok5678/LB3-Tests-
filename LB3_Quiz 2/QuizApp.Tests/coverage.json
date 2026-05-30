@@ -1,0 +1,519 @@
+{
+  "QuizApp.Core.dll": {
+    "/Users/evgen/RiderProjects/LB3_Quiz/QuizApp.Core/Class1.cs": {
+      "QuizApp.Core.Profile": {
+        "System.String QuizApp.Core.Profile::get_Bio()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String QuizApp.Core.Profile::get_AvatarUrl()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      },
+      "QuizApp.Core.User": {
+        "System.String QuizApp.Core.User::get_Username()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String QuizApp.Core.User::get_Email()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "QuizApp.Core.Profile QuizApp.Core.User::get_UserProfile()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "QuizApp.Core.Admin": {
+        "System.Void QuizApp.Core.Admin::ManageUsers()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "QuizApp.Core.Fact": {
+        "System.String QuizApp.Core.Fact::get_Content()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String QuizApp.Core.Fact::get_Source()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<QuizApp.Core.Quiz> QuizApp.Core.Fact::get_RelatedQuizzes()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "QuizApp.Core.Answer": {
+        "System.String QuizApp.Core.Answer::get_Text()": {
+          "Lines": {
+            "36": 56
+          },
+          "Branches": []
+        },
+        "System.Boolean QuizApp.Core.Answer::get_IsCorrect()": {
+          "Lines": {
+            "37": 25
+          },
+          "Branches": []
+        },
+        "System.Void QuizApp.Core.Answer::.ctor(System.String,System.Boolean)": {
+          "Lines": {
+            "39": 20,
+            "40": 20,
+            "41": 20,
+            "42": 1,
+            "44": 19,
+            "45": 19,
+            "46": 19
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 16,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 19
+            }
+          ]
+        }
+      },
+      "QuizApp.Core.Question": {
+        "System.String QuizApp.Core.Question::get_Text()": {
+          "Lines": {
+            "51": 14
+          },
+          "Branches": []
+        },
+        "System.Int32 QuizApp.Core.Question::get_Points()": {
+          "Lines": {
+            "52": 19
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<QuizApp.Core.Answer> QuizApp.Core.Question::get_Answers()": {
+          "Lines": {
+            "53": 86
+          },
+          "Branches": []
+        },
+        "System.Void QuizApp.Core.Question::AddAnswer(System.String,System.Boolean)": {
+          "Lines": {
+            "69": 22,
+            "71": 22,
+            "72": 1,
+            "75": 112,
+            "76": 25,
+            "77": 25,
+            "78": 1,
+            "79": 24,
+            "81": 20,
+            "82": 19
+          },
+          "Branches": [
+            {
+              "Line": 71,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 20,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 21
+            },
+            {
+              "Line": 75,
+              "Offset": 103,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 25
+            },
+            {
+              "Line": 77,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 77,
+              "Offset": 82,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 24
+            },
+            {
+              "Line": 75,
+              "Offset": 103,
+              "EndOffset": 105,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 20
+            }
+          ]
+        },
+        "System.Int32 QuizApp.Core.Question::Evaluate(System.Collections.Generic.List`1<System.String>)": {
+          "Lines": {
+            "86": 4,
+            "87": 4,
+            "88": 1,
+            "90": 9,
+            "91": 14,
+            "93": 3,
+            "94": 0,
+            "97": 16,
+            "98": 4,
+            "99": 4,
+            "100": 1,
+            "101": 3,
+            "104": 2,
+            "105": 2,
+            "106": 1,
+            "107": 1,
+            "109": 1,
+            "110": 2
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 87,
+              "Offset": 2,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 18,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 93,
+              "Offset": 176,
+              "EndOffset": 178,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 176,
+              "EndOffset": 189,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 97,
+              "Offset": 253,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 4
+            },
+            {
+              "Line": 99,
+              "Offset": 225,
+              "EndOffset": 227,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 99,
+              "Offset": 225,
+              "EndOffset": 245,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 97,
+              "Offset": 253,
+              "EndOffset": 255,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 105,
+              "Offset": 290,
+              "EndOffset": 292,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 105,
+              "Offset": 290,
+              "EndOffset": 303,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void QuizApp.Core.Question::.ctor(System.String,System.Int32)": {
+          "Lines": {
+            "55": 14,
+            "56": 14,
+            "57": 14,
+            "58": 0,
+            "59": 14,
+            "60": 0,
+            "62": 14,
+            "63": 14,
+            "64": 14,
+            "65": 14
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 16,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            },
+            {
+              "Line": 59,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 14
+            },
+            {
+              "Line": 59,
+              "Offset": 36,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 48,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 14
+            }
+          ]
+        }
+      },
+      "QuizApp.Core.Quiz": {
+        "System.String QuizApp.Core.Quiz::get_Title()": {
+          "Lines": {
+            "115": 5
+          },
+          "Branches": []
+        },
+        "System.DateTime QuizApp.Core.Quiz::get_CreatedAt()": {
+          "Lines": {
+            "116": 5
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<QuizApp.Core.Question> QuizApp.Core.Quiz::get_Questions()": {
+          "Lines": {
+            "117": 14
+          },
+          "Branches": []
+        },
+        "System.Void QuizApp.Core.Quiz::AddQuestion(QuizApp.Core.Question)": {
+          "Lines": {
+            "130": 5,
+            "131": 5,
+            "132": 5,
+            "133": 5
+          },
+          "Branches": [
+            {
+              "Line": 131,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Double QuizApp.Core.Quiz::CalculateSuccessRate(System.Int32)": {
+          "Lines": {
+            "137": 5,
+            "138": 5,
+            "139": 1,
+            "141": 8,
+            "143": 4,
+            "144": 1,
+            "146": 3,
+            "147": 0,
+            "149": 3,
+            "150": 3
+          },
+          "Branches": [
+            {
+              "Line": 138,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 138,
+              "Offset": 7,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 143,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 143,
+              "Offset": 74,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 146,
+              "Offset": 93,
+              "EndOffset": 95,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 93,
+              "EndOffset": 111,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void QuizApp.Core.Quiz::.ctor(System.String)": {
+          "Lines": {
+            "119": 5,
+            "120": 5,
+            "121": 5,
+            "122": 0,
+            "124": 5,
+            "125": 5,
+            "126": 5,
+            "127": 5
+          },
+          "Branches": [
+            {
+              "Line": 121,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 121,
+              "Offset": 16,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    }
+  }
+}
